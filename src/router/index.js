@@ -8,7 +8,7 @@ import Mine from "@/components/Mine";
 
 const routes = [
     {path: '/HelloWorld', component: HelloWorld},
-    {path: '/Mine',component: Mine}
+    {path: '/',component: Mine}
 ];
 export default new Router({
     routes
